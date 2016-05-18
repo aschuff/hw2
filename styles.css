@@ -1,8 +1,9 @@
 * {
-  font-family: helvetica,arial,freesans,clean,sans-serif;
+    font-family: helvetica,arial,freesans,clean,sans-serif;
 }
+
 .ocotdex {
-  padding-left: 0px;
+    padding-left: 0;
 }
 
 .octocat {
@@ -13,102 +14,100 @@
 }
 
 .octocat img {
-  display: inline-block;
-  width: 96%;
-  border-radius: 3px;
-  border: 1px solid #cacaca;
+    display: inline-block;
+    width: 96%;
+    border-radius: 3px;
+    border: 1px solid #cacaca;
 }
 
 li.octocat > a > img {
-  border: solid #cacaca 1px;
-  width: 96%;
-  border-radius: 4px;
+    border: solid #cacaca 1px;
+    width: 96%;
+    border-radius: 4px;
 }
 
-.image-footer .image-number{
-  float: left;
-  margin: 29px 0px 0px -9px;
-  color: #cacaca;
-  font-weight: bold;
+.image-footer .image-number {
+    float: left;
+    margin: 29px 0 0 -9px;
+    color: #cacaca;
+    font-weight: 700;
 }
 
 a {
-  display: inline-block;
-  font-weight: bold;
-  color: #333;
-  outline: 0;
-  text-decoration: none;
-  text-align: right;
-  line-height: 1.4em;
+    display: inline-block;
+    font-weight: 700;
+    color: #333;
+    outline: 0;
+    text-decoration: none;
+    text-align: right;
+    line-height: 1.4em;
 }
 
 .image-caption span {
-  line-height: 1.4em;
-  font-size: 16px;
-  color: #777;
-  font-weight: bold;
-  text-align: right;
-  display: inline-block;
+    line-height: 1.4em;
+    font-size: 16px;
+    color: #777;
+    font-weight: 700;
+    text-align: right;
+    display: inline-block;
 }
 
-.image-caption span, .image-caption a {
-  position: relative;
-  top: -10px;
+.image-caption span,.image-caption a {
+    position: relative;
+    top: -10px;
 }
 
 .image-caption .authors a {
-  position: static;
+    position: static;
 }
 
 .image-number:before {
-  content: "#";
-  float:left;
-  margin: 5px 0;
-  color: #cacaca;
-  font-weight: bold;
-  line-height: 0.5em;
-  display: inline-block;
+    content: "#";
+    float: left;
+    margin: 5px 0;
+    color: #cacaca;
+    font-weight: 700;
+    line-height: .5em;
+    display: inline-block;
 }
 
 .authors {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
 }
 
 .authors img {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  border: none;
-
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: none;
 }
 
 .image-footer {
-  border-bottom: solid #cacaca;
-  margin: -30px 0px 0px 28px;
-  border-width: 1px;
-
+    border-bottom: solid #cacaca;
+    margin: -30px 0 0 28px;
+    border-width: 1px;
 }
 
 .image-footer:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  border: 8px solid transparent;
-  border-top-color: #cacaca;
-  position: relative;
-  right: 7px;
-  left: 365px;
-  top: 24px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #cacaca;
+    position: relative;
+    right: 7px;
+    left: 365px;
+    top: 24px;
 }
 
 .image-caption {
-  text-align: right;
-  margin: 24px 0px 0px 126px;
+    text-align: right;
+    margin: 24px 0 0 126px;
 }
 
-ul  {
-  padding: 0px;
+ul {
+    padding: 0;
 }
